@@ -1,0 +1,125 @@
+/* Page background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+.todo-container {
+  background: white;
+  padding: 25px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.todo-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input box */
+.todo-container input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* Add button */
+.todo-container button {
+  padding: 10px 12px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.todo-container button:hover {
+  background: #3730a3;
+}
+
+/* Todo list */
+.todo-container ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Each todo item */
+.todo-container li {
+  background: #f1f5f9;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Delete button */
+.todo-container li button {
+  background: #ef4444;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.todo-container li button:hover {
+  background: #b91c1c;
+}
+
+/* .alert-box {
+  background: #4f46e5;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+} */
+
+.alert-box {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #4f46e5;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+  /* animation */
+  animation: slideDown 0.4s ease, fadeOut 0.4s ease 1.6s forwards;
+}
+
+/* Slide from top */
+@keyframes slideDown {
+  from {
+    transform: translateX(-50%) translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Fade out */
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px);
+  }
+}

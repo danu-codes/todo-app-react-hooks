@@ -1,16 +1,42 @@
-# React + Vite
+# 📝 React Todo App (useReducer)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet modern Todo Application built with **React Hooks** using `useReducer` for state management and `useState` for input handling.
 
-Currently, two official plugins are available:
+This project demonstrates real-world React state management with clean UI and animated toast notifications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 [Click Here to View Live App](https://danu-codes.github.io/todo-app-react-hooks/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshot
+
+<img width="1062" height="683" alt="image" src="https://github.com/user-attachments/assets/a5573421-f80d-4187-bbcf-43e05a4ecf46" />
+
+---
+
+## ✨ Features
+
+- ➕ Add new tasks
+- ❌ Delete tasks
+- ⚡ Fast state management using `useReducer`
+- 🎯 Input validation (no empty tasks allowed)
+- 🔔 Animated toast notifications (success & error)
+- 🎨 Clean and responsive UI design
+
+---
+
+## 🛠️ Tech Stack
+
+- React JS
+- useReducer Hook
+- useState Hook
+- CSS3 (custom styling)
+- JavaScript (ES6+)
+
+---
+
+## 📂 Project Structure

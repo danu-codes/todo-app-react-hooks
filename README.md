@@ -6,18 +6,6 @@ This project demonstrates real-world React state management with clean UI and an
 
 ---
 
-## 🚀 Live Demo
-
-👉 [Click Here to View Live App](https://danu-codes.github.io/todo-app-react-hooks/)
-
----
-
-## 📸 Screenshot
-
-<img width="1062" height="683" alt="image" src="https://github.com/user-attachments/assets/a5573421-f80d-4187-bbcf-43e05a4ecf46" />
-
----
-
 ## ✨ Features
 
 - ➕ Add new tasks
@@ -39,4 +27,14 @@ This project demonstrates real-world React state management with clean UI and an
 
 ---
 
-## 📂 Project Structure
+## 🚀 Live Demo
+
+👉 [Click Here to View Live App](https://danu-codes.github.io/todo-app-react-hooks/)
+
+---
+
+## 📸 Screenshot
+
+<img width="1062" height="683" alt="image" src="https://github.com/user-attachments/assets/a5573421-f80d-4187-bbcf-43e05a4ecf46" />
+
+---
